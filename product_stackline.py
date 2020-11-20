@@ -16,15 +16,9 @@ class Product:
         return self.price
 
 
-snowboots = Product('112',30)
-rainboots = Product('113',50)
-boots = Product('11',20)
-print(snowboots.getPrice())
-print(rainboots.getPrice())
-print(boots.getPrice())
 
+class Variation():
 
- 
     def __init__(self,parent,children):
     	"""
     	contains two attributes: a list of parent categories and a list of children categories. 
